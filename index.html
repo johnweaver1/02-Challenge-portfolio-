@@ -2,41 +2,71 @@
 <html>
 
 <head>
-  <title>CSS Box Styling</title>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <link rel="stylesheet" type="text/css" href="./assets/css/reset.css">
-  <link rel="stylesheet" type="text/css" href="./assets/css/style.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" type="text/css" href="./assets/css/style.css" />
+    <title>Testing Files</title>
 </head>
+
 <body>
-  <header class="header"> <h1>John Weaver</h1>
-    <nav>
-        <ul>
-          <li><a href="#about">About Me</a></li>
-          <li><a href="#work">Work</a></li>
-          <li><a href="#contact">Contact Me</a></li>
-        </ul>
-    </nav>
-  </header>
-  <section>
-      <article id="about" class="about">
-        <h2 class="inline">About Me</h2>
-        <p class="inline">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
-      </article>
-      <article id="work" class="work">
-        <h3>Project 1</h3>
-        <h3>Project 2</h3>
-        <h3>Project 3</h3>
-        <h3>Project 4</h3>
-      </article>
-      <article id="contact" class="contact">
-        <h2>Contact Me</h2>
-        <ul>
-          <li><a href ="mailto: john.weaver94@utexas.edu">email</a></li>
-          <li><a href ="https://github.com/johnweaver1">Github</a></li>
-        </ul>
-      </article>
+     <nav>
+        <h1>John Weaver</h1>
+            <img src="./assets/images/gif.gif" alt="gif of the intials JW" id="gif">
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul> 
+        </nav>
+    <main>
+    <div class="top-section">
+        <div class="left">
+            <h1>John Weaver</h1>
+            <h2>Learning to code!</h2>
+        </div>
+        <div class="right">
+            <img src="./assets/images/self.JPG" alt="phot of John at a wedding" class ="circle profile">
+        </div>
+    </div>
+    </main>
+    <section id="about">
+        <div class="about">
+            <h1>About Me</h1>
+            <div>
+                <p>Hi, my name is John. I'm currently working as an elective teacher in Austin.
+                    I teach TV, Film, and classes with coding in them! When I started learning to code
+                    because of my profession I learned to love it. Now I'm here in bootcamp trying to get better.
+                    I can't wait to show off what I'm going to be learning.
+                </p>
+            </div>
+        </div>
+    </section>
+    <section id ="projects">
+        <h1 class="sectionTitle">Project 1</h1>
+        <div class ="portfolioSlide">
+            <div class="portfolioItems">
+                <div>
+                    <!-- this is for my repo link when I have finished a project -->
+                    <!-- <a href=</a> -->
+                    <img src="/assets/images/pGif.gif" alt="gif of placeholder text and a question mark">
+                </div>
+                <div class ="portfolioDescription">
+                    <h3>Project-1-PlaceHolder</h3>
+                    <p class ="pd">Here is where I will put my text for the first project description!</p>
+                    <div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id ="contact">
+        <div class="footer">
+         <h1>Contacts</h1>
+         <ul>
+            <li><a href="mailto:john.weaver94@utexas.edu">Email</a></li>
+            <li><a href="https://github.com/johnweaver1">Github</a></li>
+            <li></li>
+         </ul>
+        </div>
     </section>
 </body>
-    
-</html>
