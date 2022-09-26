@@ -3,15 +3,15 @@
     --main-text-color: #cecece;
   }
   
-  *,
-  *::before,
-  *::after {
+*,
+*::before,
+*::after {
   box-sizing: border-box;
-  }
+}
   
   
-  html,
-  body {
+html,
+body {
     height: 100%;
     width: 100%;
     margin: 0;
@@ -19,110 +19,116 @@
     font-family: 'Dosis', sans-serif;
     background: var(--main-bg-color);
     color: var(--main-text-color);
-  }
+}
   
-  h1 h2{
+h1 h2{
     display: block;
     font-weight:bold;
-  }
-  h1 {
-    font-size: large;
-  }
-  p {
+}
+
+p {
     font-size: 30px;
     display: block;
-  }
+}
   
-  a {
+a {
     font-family: 'Dosis', sans-serif;
     text-decoration: none;
     color: var(--main-text-color);
-  }
-  #gif {
+}
+
+#gif {
     max-height:70px;
-  }
-  nav {
+}
+
+nav {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
     height: 10px;
     font-size: 30px;
-  }
+}
   
-  nav ul {
+nav ul {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
     list-style-type: none;
-  }
+}
   
-  nav ul li {
+nav ul li {
     padding-left: 1vw;
     padding-right: 1vw;
-  }
+}
   
-  .left, .right {    
+.left, .right {    
     display: flex;
     flex-wrap: wrap;    
     justify-content: center;
     align-items: center;
     flex-direction: column;
-  }
-  .circle {
+}
+
+.circle {
     border-radius: 50%;
-  }
-  .profile {
-    max-width: 50%;
-  }
-  .top-section {
+}
+
+.profile {
+    max-width: 24vw;
+}
+
+.top-section {
     height: 80vh;
     width: 100%;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
     align-items: center;
-  }
-  .left h1 {
+}
+
+.left h1 {
     font-size: 100px;
     margin-bottom: 0;
-  }
-  .left h2{
+}
+
+.left h2{
     font-size:50px;
-  }
+}
   
-  section {
+section {
   height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  }
-  .about {
+}
+  
+.about {
     height: 90vh;
     width: 70vw;
     display: flex;
     justify-content: center;
     align-items: center;    
     flex-direction: column;
-  }
-  .portfolioItems {
+}
+.portfolioItems {
     display: grid;
     grid-template-columns: 40vw 40vw; 
     grid-template-rows: 30vh 30vh;
     grid-gap: 10vh;
     align-items: center;
     justify-content: center;
-  }
+}
   
-  .portfolioItems h3 .pd {
+.portfolioItems h3 .pd {
     font-size: 30px;
     display: flex;
     justify-content: center;
-  }
+}
   
-  .portfolioImage {
+.portfolioImage {
     width: 85%;
     height: 85%;
     object-fit: contain;
-  }
+}
