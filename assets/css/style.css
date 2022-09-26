@@ -131,7 +131,7 @@ section {
     justify-content: center;
 } 
 */
-.sectionTitle {
+.projectTitle {
     font-size: 60px;
     height: 10vh;
 }
@@ -148,7 +148,7 @@ section {
     align-items: center;    
     flex-direction: column;
 }
-.center {
+.projectItems {
     text-align: center;
 }
 .projectImage {
