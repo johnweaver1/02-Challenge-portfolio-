@@ -121,7 +121,7 @@ section {
     font-size: 60px;
 }
 /* I created grids here because I will be adding items here once I have more projects */
- .portfolioItems { 
+ /*.portfolioItems { 
     display: grid;
     grid-template-columns: 40vw 40vw; 
     grid-template-rows: 30vh 30vh;
@@ -129,9 +129,14 @@ section {
     align-items: center;
     justify-content: center;
 } 
+*/
 .sectionTitle {
     font-size: 60px;
     height: 10vh;
+}
+.projectImage {
+    border: 10px solid;
+    position: relative;
 }
 .portfolioItems h3 {
     font-size: 50px;
@@ -151,4 +156,13 @@ section {
 
 .footerText {
     font-size:30px;
+}
+@media screen and (max-width: 768px) {
+  header {
+    flex-direction: column;
+  }
+
+  main {
+    max-width: 1200px;
+  }
 }
