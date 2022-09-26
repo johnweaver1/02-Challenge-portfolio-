@@ -29,6 +29,7 @@ h1 h2{
 p {
     font-size: 30px;
     display: block;
+    
 }
   
 a {
@@ -134,20 +135,24 @@ section {
     font-size: 60px;
     height: 10vh;
 }
-.projectImage {
-    border: 10px solid;
-    position: relative;
-}
+
 .portfolioItems h3 {
     font-size: 50px;
     display: flex;
     justify-content: center;
 }
-  
-.portfolioImage {
-    width: 85%;
-    height: 85%;
-    object-fit: contain;
+.pd {
+    width: 90vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+    flex-direction: column;
+}
+.center {
+    text-align: center;
+}
+.projectImage {
+    max-width: 50%;
 }
 
 .footerHeading{
@@ -158,11 +163,11 @@ section {
     font-size:30px;
 }
 @media screen and (max-width: 768px) {
-  header {
-    flex-direction: column;
-  }
-
-  main {
-    max-width: 1200px;
+header, main {
+        flex-direction: column;
+      }
+    
+  section {
+    padding-right: 0;
   }
 }
