@@ -46,7 +46,7 @@ nav {
     flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
-    height: 10px;
+    height: 10vh;
     font-size: 30px;
 }
   
@@ -112,17 +112,29 @@ section {
     align-items: center;    
     flex-direction: column;
 }
-.portfolioItems {
+#projects {
+    background: var(--main-bg-color);
+    height:120vh;
+    width: 100%;
+}
+.aboutTitle {
+    font-size: 60px;
+}
+/* I created grids here because I will be adding items here once I have more projects */
+ .portfolioItems { 
     display: grid;
     grid-template-columns: 40vw 40vw; 
     grid-template-rows: 30vh 30vh;
     grid-gap: 10vh;
     align-items: center;
     justify-content: center;
+} 
+.sectionTitle {
+    font-size: 60px;
+    height: 10vh;
 }
-  
-.portfolioItems h3 .pd {
-    font-size: 30px;
+.portfolioItems h3 {
+    font-size: 50px;
     display: flex;
     justify-content: center;
 }
@@ -131,4 +143,12 @@ section {
     width: 85%;
     height: 85%;
     object-fit: contain;
+}
+
+.footerHeading{
+    font-size: 40px;
+}
+
+.footerText {
+    font-size:30px;
 }
